@@ -8,10 +8,10 @@ function Hero() {
     return (
         <section className='overflow-y-hidden relative w-full h-fit px-36'>
             <div className='absolute right-0 top-0 h-full -z-10'>
-                <img src="/Figure1.png" />
+                <img src="/Figure1.png" alt='figure' />
             </div>
             <div className='absolute top-0 left-0 right-0 -z-20'>
-                <img src='/Bg1.png' className='w-full h-full object-cover' />
+                <img src='/Bg1.png' alt='bg1' className='w-full h-full object-cover' />
             </div>
             <div className='max-w-7xl mx-auto'>
             <Header />
