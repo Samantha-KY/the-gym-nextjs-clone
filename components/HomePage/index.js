@@ -1,21 +1,21 @@
 import React from 'react'
-import Footer from '../modules/_modules/Footer';
-import Contact from './Contact';
+import Footer from '../modules/Footer';
 import Hero from './Hero';
 import Partners from './Partners';
-import Project from './Projects';
-import Services from './Services'
+import FeatureProject from './FeatureProject';
 import Social from './Social';
+import Innovative from './Innovative';
+import GetInTouch from './GetInTouch';
 
 function HomePage() {
   return (
     <section className=''>
       <Hero />
-      <Services />
+      <Innovative />
       <Partners />
-      <Project />
+      <FeatureProject />
       <Social />
-      <Contact />
+     <GetInTouch/>
       <Footer />
     </section>
   )

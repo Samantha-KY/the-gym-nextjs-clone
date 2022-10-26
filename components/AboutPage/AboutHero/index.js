@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Header from '../../modules/_modules/Header.js';
-import Button from '../../modules/_modules/Button/index.js';
+import Header from '../../modules/Header';
+// import Button from '../../modules/Button';
 
-function Hero() {
+function AboutHero() {
     return (
         <section className='overflow-y-hidden relative w-full h-fit px-36'>
 
@@ -33,4 +33,4 @@ function Hero() {
     )
 }
 
-export default Hero;
+export default AboutHero;

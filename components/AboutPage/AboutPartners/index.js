@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import LogosContainer from '../../modules/_modules/logosContainer'
+import LogosContainer from '../../modules/LogosContainer'
 
-function Partners() {
+function AboutPartners() {
     return (
         <section className='py-40 bg-primary-bg px-36'>
             <div className='flex flex-col max-w-7xl mx-auto'>
@@ -46,4 +46,4 @@ function Partners() {
     )
 }
 
-export default Partners
+export default AboutPartners

@@ -1,8 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Header from '../../modules/_modules/Header.js';
-import Image from 'next/image';
-import Button from '../../modules/_modules/Button/index.js';
+import Header from '../../modules/Header';
+import Button from '../../modules/Button';
 
 function Hero() {
     return (

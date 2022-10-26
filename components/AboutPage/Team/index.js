@@ -1,6 +1,6 @@
 import React from 'react'
 import AboutCard from '../../modules/cards/aboutCard'
-import Button from '../../modules/_modules/Button'
+import Button from '../../modules/Button'
 
 const DUMMY_TEAM = [
     {

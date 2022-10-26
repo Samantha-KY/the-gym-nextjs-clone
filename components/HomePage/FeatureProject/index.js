@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Button from '../../modules/_modules/Button';
+import Button from '../../modules/Button';
 
-function Project() {
+function FeatureProject() {
     return (
         <section className='bg-primary-bg px-36'>
             <div className='flex justify-between max-w-7xl mx-auto'>
@@ -32,4 +32,4 @@ function Project() {
     )
 }
 
-export default Project;
+export default FeatureProject;
