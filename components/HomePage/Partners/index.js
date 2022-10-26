@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Button from '../../modules/Button'
-import LogosContainer from '../../modules/logosContainer'
+import LogosContainer from '../../modules/LogosContainer'
 
 function Partners() {
     return (
