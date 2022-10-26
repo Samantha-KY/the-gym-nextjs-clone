@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutCard from '../../modules/cards/aboutCard'
+import AboutCard from '../../modules/cards/AboutCard'
 import Button from '../../modules/Button'
 
 const DUMMY_TEAM = [
