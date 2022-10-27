@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react'
-import Footer from '../modules/_modules/Footer'
-import Hero from './Hero'
-import Partners from './Partners'
+import Footer from '../modules/Footer'
+import AboutHero from './AboutHero'
+import AboutPartners from './AboutPartners'
 import Team from './Team'
 
 function AboutPage() {
   return (
     <Fragment>
-    <Hero/>
-    <Partners />
+    <AboutHero/>
+    <AboutPartners />
     <Team/>
     <Footer />
     </Fragment>

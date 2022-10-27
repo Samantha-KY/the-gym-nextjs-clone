@@ -1,6 +1,6 @@
 import React from 'react'
-import AboutCard from '../../modules/cards/aboutCard'
-import Button from '../../modules/_modules/Button'
+import AboutCard from '../../modules/cards/AboutCard'
+import Button from '../../modules/Button'
 
 const DUMMY_TEAM = [
     {
@@ -54,7 +54,7 @@ function Team() {
     return (
         <section className='py-20 bg-repetitive-bg px-36'>
             <p className='text-content-small text-sm text-center'>Our Team</p>
-            <h1 className='font-bold text-content-green-primary text-4xl text-center'>Let's meet</h1>
+            <h1 className='font-bold text-content-green-primary text-4xl text-center'>Let&apos;s meet</h1>
             <div className='grid grid-cols-3 mt-10 gap-5  max-w-7xl mx-auto'>
                 {
                     DUMMY_TEAM.map((member, index) =>{
