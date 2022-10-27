@@ -7,7 +7,8 @@ function Header() {
         <section className='flex justify-between items-center pt-14 relative'>
             <div className='flex gap-2 items-center'>
                 <div className='bg-primary-green h-13 w-13 rounded-full' />
-                <h1 className='text-content-green-primary font-bold text-2xl'>Buildit</h1>
+                <h1 className='text-content-green-primary font-bold text-2xl'>
+                    <Link href="/">Buildit</Link></h1>
             </div>
             <ul className='flex justify-around text-content-green-secondary text-xsm font-medium w-1/2'>
                 <li>

@@ -15,7 +15,7 @@ function HomePage() {
       <Partners />
       <FeatureProject />
       <Social />
-     <GetInTouch/>
+      <GetInTouch />
       <Footer />
     </section>
   )
